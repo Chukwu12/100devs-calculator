@@ -19,7 +19,7 @@ body {
   
 }
 
- button {
+ .button-container button {
   width: 60px;
   height: 40px;
   background-color: white;
