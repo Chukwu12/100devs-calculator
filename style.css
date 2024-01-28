@@ -12,8 +12,8 @@ body {
   background: linear-gradient(to right, #00aaff, #0051ff);
 }
 
-.calculator-grid {
-  display: grid;
+.calculator {
+  display: flex;
   justify-content: center;
   align-content: center;
   min-height: 100vh;
