@@ -13,10 +13,14 @@ body {
 }
 
 .calculator {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  
+  background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 400px;
+    border-radius: 25px;
+    align-items: center;
 }
 
 .button-container{
@@ -30,7 +34,7 @@ body {
 
  .button-container button {
   width: 60px;
-  height: 40px;
+  height: 60px;
   background-color: white;
   font-size: 2em;
   display: flex;
@@ -38,6 +42,8 @@ body {
   align-items: center;
   margin: 5px;
   border: 0;
+  border-radius: 50%;
+  font-weight: 600;
 }
 
 .calculator-grid > button:hover {
@@ -49,23 +55,18 @@ body {
 }
 
 .output {
-  grid-column: 1 / -1;
-  background-color: rgba(0, 0, 0, 0.75);
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-around;
-  flex-direction: column;
-  padding: 10px;
-  word-wrap: break-word;
-  word-break: break-all;
+  height: 70px;
+  background-color: white;
+  position: relative;
+  width: 350px;
 }
 
 .output .previous-operand {
-  color: rgba(255, 255, 255, 0.75);
+  color: black;
   font-size: 1.5rem;
 }
 
 .output .current-operand {
-  color: white;
+  color: black;
   font-size: 2.5rem;
 }
