@@ -9,7 +9,7 @@
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(to right, #0051ff80, #0a51d42d);
+  background: linear-gradient(to right, #0051ff0c, #1515168a);
 }
 
 #calc{
@@ -44,7 +44,7 @@ body {
   width: 60px;
   height: 60px;
   background-color: white;
-  font-size: 2em;
+  font-size: 1.6em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,6 +83,15 @@ body {
   right: 0;
   bottom: 0;
   padding: 0px 10px;
+}
+
+
+.reset{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 0px;
 }
 
 /* heading */
